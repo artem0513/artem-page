@@ -25012,7 +25012,8 @@ body.loaded {
 .about-us-section-card .about-us-card {
     border-radius: 20px;
     background: var(--color-gray-2);
-    padding: 40px 30px;
+    min-height: 360px;
+    padding: 50px 35px;
     height: 100%;
 }
 
@@ -25072,7 +25073,7 @@ body.loaded {
 
 @media (min-width: 576px) {
     .about-us-left-content-wrap {
-        padding-left: 110px;
+        padding-left: 0;
         padding-right: 72px;
     }
 }
@@ -25091,16 +25092,12 @@ body.loaded {
 }
 
 .about-us-left-content-wrap.bg-vactor-one::after {
-    content: " ";
-    position: absolute;
-    left: 0;
-    top: 197px;
-    background: linear-gradient(0deg, rgba(255, 1, 79, 0) 15.49%, var(--color-primary) 100%);
-    filter: blur(2px);
-    border-radius: 100%;
-    width: 410px;
-    height: 410px;
-    z-index: -1;
+    left: -60px;
+    top: 310px;
+    width: 240px;
+    height: 240px;
+    background: rgba(253, 196, 72, 0.35);
+    filter: blur(45px);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -31167,10 +31164,10 @@ body.tmp-white-version {
         filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
     }
 
-    body.tmp-white-version .about-us-left-content-wrap .years-of-experience-card,
-    body.tmp-white-version .about-us-left-content-wrap .design-card {
-        background: rgba(255, 255, 255, 0.3);
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    .about-us-left-content-wrap .years-of-experience-card,
+    .about-us-left-content-wrap .design-card {
+        border: 1px solid rgba(253, 196, 72, 0.15);
+        background: #0d0d0f;
     }
 
     body.tmp-white-version .client-testimonial-swiper .swiper::before {
@@ -31763,3 +31760,145 @@ section[id] {
         visibility: visible;
         transform: translateX(-50%) translateY(0);
     }
+
+.certificate-full-width {
+    width: 100%;
+    padding: 20px !important;
+}
+
+
+.about-certificate-section {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.certificate-full-width {
+    width: 100%;
+}
+
+.certificate-full-width .portfoli-card-img .img-box {
+    height: auto;
+}
+
+.certificate-full-width .portfoli-card-img img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    object-position: center;
+}
+
+.certificate-full-width .portfolio-card-content-wrap {
+    padding-top: 10px;
+}
+
+.about-us-area {
+    padding-bottom: 60px;
+}
+
+.about-us-left-content-wrap {
+    position: relative;
+    z-index: 1;
+    padding-top: 70px;
+}
+@media (min-width: 992px) {
+    .about-us-section-card {
+        margin-top: 30px;
+    }
+}
+
+.row.mt--50 {
+    --bs-gutter-y: 0rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .about-us-section-card .about-us-card {
+        padding: 25px 20px;
+        min-height: 220px;
+    }
+
+        .about-us-section-card .about-us-card .card-head {
+            gap: 10px;
+        }
+
+            .about-us-section-card .about-us-card .card-head .logo-img {
+                width: 50px;
+                height: 50px;
+                min-width: 50px;
+            }
+
+            .about-us-section-card .about-us-card .card-head .card-title {
+                font-size: 28px;
+                line-height: 34px;
+            }
+
+        .about-us-section-card .about-us-card .card-para {
+            font-size: 18px;
+            line-height: 32px;
+        }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .about-us-left-content-wrap {
+        margin-top: -60px;
+    }
+}
+
+@media (min-width: 992px) {
+        .certificate-full-width {
+            max-width: 1050px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 24px !important;
+        }
+
+        .certificate-full-width .portfoli-card-img {
+            width: 65%;
+            margin-bottom: 0;
+        }
+
+        .certificate-full-width .portfolio-card-content-wrap {
+            width: 36%;
+            padding-left: 28px;
+            padding-top: 0;
+            padding-bottom: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .certificate-full-width {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+        }
+
+        .certificate-full-width .portfoli-card-img img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            filter: brightness(0.88) contrast(0.96);
+            border-radius: 18px;
+        }
+
+        .certificate-full-width .portfolio-card-title {
+            font-size: 26px;
+            line-height: 36px;
+        }
+
+        .certificate-full-width .portfolio-description {
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+
+        .certificate-full-width .tmp-button-here {
+            margin-top: 10px;
+        }
+
+        .certificate-full-width {
+            width: 100%;
+            max-width: none;
+        }
+}
