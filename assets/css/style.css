@@ -31902,3 +31902,181 @@ section[id] {
             max-width: none;
         }
 }
+
+.year-expariance-wrap-1 .counter {
+    font-size: 100px !important;
+    line-height: 1;
+}
+
+.year-expariance-wrap-1 .counter .odometer {
+    font-size: inherit;
+}
+
+.year-expariance-wrap-1 .para {
+    font-size: 28px !important;
+}
+
+.bg-benner-img-four {
+    position: absolute !important;
+    right: 150px !important;      /* вправо */
+    bottom: 0 !important;         /* прижать к низу */
+    top: auto !important;
+    z-index: 2 !important;
+}
+
+.bg-benner-img-four img {
+    width: 650px !important;      /* размер фото */
+    max-width: none !important;
+    display: block;
+}
+
+
+@media (max-width: 767px) {
+    .rpp-banner-four-area {
+        padding-top: 90px !important;
+        overflow: hidden !important;
+    }
+
+    .banner-four-main-wrapper {
+        padding: 30px 0 0 !important;
+        height: auto !important;
+        top: 0 !important;
+    }
+
+    .banner-four-main-wrapper .row {
+        position: relative !important;
+        z-index: 5 !important;
+    }
+
+    .bg-benner-img-four {
+        position: relative !important;
+        right: auto !important;
+        bottom: auto !important;
+        top: auto !important;
+        transform: none !important;
+        width: 100% !important;
+        margin-top: 25px !important;
+        text-align: center !important;
+        z-index: 1 !important;
+    }
+
+    .bg-benner-img-four img {
+        width: 360px !important;
+        max-width: 120% !important;
+        transform: translateX(-45px) !important;
+    }
+
+    .banner-four-right-bg-img {
+        right: -80px !important;
+        top: 40px !important;
+        opacity: 0.7 !important;
+    }
+
+    .banner-four-main-wrapper .inner {
+        position: relative !important;
+        z-index: 10 !important;
+    }
+
+    .banner-four-main-wrapper .title {
+        font-size: 42px !important;
+        line-height: 1 !important;
+    }
+
+    .banner-four-main-wrapper .sub-title {
+        font-size: 25px !important;
+        line-height: 1.2 !important;
+    }
+
+    .banner-four-main-wrapper .description {
+        font-size: 15px !important;
+        line-height: 1.5 !important;
+        max-width: 330px !important;
+    }
+
+    .banner-right-content {
+        margin-top: 30px !important;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+    .bg-benner-img-four {
+        position: relative !important;
+        width: 100% !important;
+        text-align: center !important;
+        margin: 20px auto 30px !important;
+        right: 0 !important;
+        left: 0 !important;
+        transform: none !important;
+    }
+
+    .bg-benner-img-four img {
+        display: block !important;
+        width: 340px !important;      /* было ~280 */
+        max-width: 95% !important;
+        margin: 0 auto !important;
+    }
+
+    .banner-four-main-wrapper .inner {
+        text-align: center !important;
+        margin-top: 15px !important;
+    }
+
+    .banner-four-main-wrapper .title {
+        font-size: 54px !important;
+    }
+
+    .banner-four-main-wrapper .sub-title {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .bg-benner-img-four img {
+        width: 330px !important;
+        max-width: 96% !important;
+        margin: 0 auto !important;
+    }
+
+    .bg-benner-img-four {
+        margin: 30px auto 25px !important;
+        text-align: center !important;
+    }
+
+    .banner-four-main-wrapper .inner {
+        text-align: center !important;
+        max-width: 360px !important;
+        margin: 0 auto !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .bg-benner-img-four {
+        position: relative !important;
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 25px 0 20px !important;
+
+        left: 0 !important;
+        right: 0 !important;
+        top: auto !important;
+        bottom: auto !important;
+        transform: none !important;
+    }
+
+    .bg-benner-img-four img {
+        width: 360px !important;
+        max-width: 100% !important;
+        height: auto !important;
+
+        display: block !important;
+        margin: 0 auto !important;
+
+        transform: none !important;
+    }
+}
