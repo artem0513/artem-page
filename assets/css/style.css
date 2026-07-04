@@ -1,4 +1,4 @@
-/*---------------------------
+    /*---------------------------
  CSS Index  
 ****************************
 
@@ -32079,4 +32079,29 @@ section[id] {
 
         transform: none !important;
     }
+}
+
+.certificate-full-width .portfolio-card-content-wrap {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    width: auto !important;
+    max-width: none !important;
+}
+
+.certificate-full-width .content-left {
+    min-width: 0 !important;
+    max-width: 520px !important;
+}
+
+.certificate-full-width .portfolio-description {
+    max-width: 520px !important;
+}
+
+.certificate-full-width .tag-items ul {
+    flex-wrap: wrap !important;
+}
+
+.certificate-full-width .tmp-button-here {
+    flex-shrink: 0 !important;
+    margin-left: 20px !important;
 }
