@@ -1862,7 +1862,8 @@ p.description {
     margin-bottom: 6px;
 }
 
-    .tag-items ul li a {
+    .tag-items ul li .tag-item {
+        display: inline-block;
         border-radius: 500px;
         border: 2px solid var(--color-border);
         color: var(--color-gray);
@@ -1873,12 +1874,6 @@ p.description {
         padding: 5px 15px;
         transition: var(--transition);
     }
-
-        .tag-items ul li a:hover {
-            background: var(--color-primary);
-            border-color: var(--color-primary);
-            color: #ffffff;
-        }
 .about-us-section-card .about-us-card {
     border-radius: 20px;
     background: var(--color-gray-2);
@@ -2468,6 +2463,19 @@ body.color-primary-3rd {
     color: #f5c242;
     text-decoration: none;
     letter-spacing: 2px;
+}
+
+.mobile-personal-logo {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.mobile-menu-button {
+    border: 0;
+    background: transparent;
+    color: #f5c242;
+    font-size: 26px;
+    cursor: pointer;
 }
 
 section[id] {
