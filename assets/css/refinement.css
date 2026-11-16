@@ -553,7 +553,7 @@ body.refined-page .about-us-left-content-wrap {
   color: #f5c34b;
 }
 body.refined-page .years-of-experience-card .card-title.focus-card-title {
-  font-size: clamp(38px, 4.7vw, 64px);
+  font-size: clamp(30px, 4.5vw, 60px);
   line-height: 1.07;
   letter-spacing: -1px;
   margin-top: 12px;
