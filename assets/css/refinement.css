@@ -391,8 +391,8 @@ body.refined-page .bg-benner-img-four img {
 }
 .hero-note > strong {
   font-family: var(--font-primary);
-  font-size: 58px;
-  line-height: 1.1;
+  font-size: 48px;
+  line-height: 1.05;
   display: block;
   color: #f5c34b;
   font-weight: 600;
@@ -551,6 +551,12 @@ body.refined-page .about-us-left-content-wrap {
 }
 .years-of-experience-card .card-title > span {
   color: #f5c34b;
+}
+body.refined-page .years-of-experience-card .card-title.focus-card-title {
+  font-size: clamp(38px, 4.7vw, 64px);
+  line-height: 1.07;
+  letter-spacing: -1px;
+  margin-top: 12px;
 }
 .about-us-left-content-wrap .years-of-experience-card .card-para {
   font-family: var(--font-primary);
